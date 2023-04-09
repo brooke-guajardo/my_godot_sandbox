@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://dm7whi2uaty66"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_wj3ar"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = SubResource("BoxMesh_wj3ar")
