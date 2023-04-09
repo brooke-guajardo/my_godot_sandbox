@@ -1,17 +1,17 @@
-[gd_scene load_steps=20 format=3 uid="uid://d31a2oqtgd52f"]
+[gd_scene load_steps=20 format=3 uid="uid://dn17l05xxw57g"]
 
 [ext_resource type="Texture2D" uid="uid://c5lynnahb4jcw" path="res://scenes/maps/sky.png" id="1_suq54"]
-[ext_resource type="MeshLibrary" uid="uid://dh6ui0ugbw5mv" path="res://scenes/assets_only/castle_tile/tileset.tres" id="2_0ujnf"]
+[ext_resource type="MeshLibrary" uid="uid://d018ju2sw4s3h" path="res://scenes/assets_only/castle_tile/tile_set_tst.tres" id="2_7oa7q"]
 [ext_resource type="Texture2D" uid="uid://ddqp7mt0ch6ae" path="res://scenes/maps/ground.png" id="3_r6fcy"]
 [ext_resource type="Texture2D" uid="uid://60shevufnec7" path="res://scenes/maps/ground_n.png" id="4_hyisj"]
-[ext_resource type="MeshLibrary" uid="uid://cyvj2iu7g4wx8" path="res://scenes/assets_only/grass/grass_mesh.tres" id="5_23xhr"]
 [ext_resource type="PackedScene" uid="uid://dmltabu2kai35" path="res://scenes/assets_only/player_scn/player.tscn" id="5_ygysy"]
-[ext_resource type="MeshLibrary" uid="uid://b2ok35bov0udf" path="res://scenes/assets_only/trees/tree_mesh.tres" id="6_13uve"]
+[ext_resource type="MeshLibrary" uid="uid://bg8vcf8mmjr3i" path="res://scenes/assets_only/trees/tree_tst.tres" id="6_ic4ao"]
 [ext_resource type="PackedScene" path="res://scenes/assets_only/campfire/campfire.tscn" id="6_wcgis"]
+[ext_resource type="MeshLibrary" uid="uid://csln7vaybua68" path="res://scenes/assets_only/grass/grass_tst.tres" id="7_mn0as"]
 [ext_resource type="PackedScene" uid="uid://de412y3nht0vb" path="res://scenes/assets_only/door_poc/door_c.tscn" id="11_uqtex"]
 [ext_resource type="Script" path="res://scenes/scripts/to_castle.gd" id="12_cyemw"]
 [ext_resource type="PackedScene" uid="uid://odp3snv0dv5p" path="res://scenes/assets_only/ramp_poc/ramp.tscn" id="13_hdw64"]
-[ext_resource type="PackedScene" uid="uid://cknloy401ivib" path="res://scenes/assets_only/lamp_post/lamp_post.tscn" id="14_2khpk"]
+[ext_resource type="PackedScene" path="res://scenes/assets_only/lamp_post/lamp_post.tscn" id="14_2khpk"]
 
 [sub_resource type="PanoramaSkyMaterial" id="PanoramaSkyMaterial_34tpg"]
 panorama = ExtResource("1_suq54")
@@ -54,11 +54,12 @@ environment = SubResource("Environment_47avl")
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
 transform = Transform3D(-0.866025, -0.433013, 0.25, 0, 0.5, 0.866025, -0.5, 0.75, -0.433013, 0, 0, 0)
+visible = false
 shadow_enabled = true
 
 [node name="cobble" type="GridMap" parent="."]
 transform = Transform3D(1.5, 0, 0, 0, 1.5, 0, 0, 0, 1.5, 0, 0, 0)
-mesh_library = ExtResource("2_0ujnf")
+mesh_library = ExtResource("2_7oa7q")
 cell_size = Vector3(1, 1, 1)
 cell_center_y = false
 data = {
@@ -78,7 +79,7 @@ shape = SubResource("ConcavePolygonShape3D_igmg7")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.74316, 1.20898, -43.6435)
 
 [node name="trees" type="GridMap" parent="."]
-mesh_library = ExtResource("6_13uve")
+mesh_library = ExtResource("6_ic4ao")
 cell_size = Vector3(1, 2, 1)
 cell_center_y = false
 data = {
@@ -86,7 +87,7 @@ data = {
 }
 
 [node name="grass" type="GridMap" parent="."]
-mesh_library = ExtResource("5_23xhr")
+mesh_library = ExtResource("7_mn0as")
 cell_size = Vector3(0.5, 2, 0.5)
 cell_center_y = false
 data = {
@@ -101,7 +102,7 @@ light_color = Color(0.968627, 0.658824, 0.458824, 1)
 [node name="second_floor" type="GridMap" parent="."]
 transform = Transform3D(1.5, 0, 0, 0, 1.5, 0, 0, 0, 1.5, 0, 2, 0)
 visible = false
-mesh_library = ExtResource("2_0ujnf")
+mesh_library = ExtResource("2_7oa7q")
 cell_size = Vector3(1, 1, 1)
 cell_center_y = false
 data = {
