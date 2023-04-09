@@ -1,21 +1,12 @@
 [gd_scene load_steps=20 format=3 uid="uid://d31a2oqtgd52f"]
 
 [ext_resource type="Texture2D" uid="uid://c5lynnahb4jcw" path="res://scenes/maps/sky.png" id="1_suq54"]
-<<<<<<< HEAD
 [ext_resource type="MeshLibrary" uid="uid://dh6ui0ugbw5mv" path="res://scenes/assets_only/castle_tile/tileset.tres" id="2_0ujnf"]
 [ext_resource type="Texture2D" uid="uid://ddqp7mt0ch6ae" path="res://scenes/maps/ground.png" id="3_r6fcy"]
 [ext_resource type="Texture2D" uid="uid://60shevufnec7" path="res://scenes/maps/ground_n.png" id="4_hyisj"]
 [ext_resource type="MeshLibrary" uid="uid://cyvj2iu7g4wx8" path="res://scenes/assets_only/grass/grass_mesh.tres" id="5_23xhr"]
 [ext_resource type="PackedScene" uid="uid://dmltabu2kai35" path="res://scenes/assets_only/player_scn/player.tscn" id="5_ygysy"]
 [ext_resource type="MeshLibrary" uid="uid://b2ok35bov0udf" path="res://scenes/assets_only/trees/tree_mesh.tres" id="6_13uve"]
-=======
-[ext_resource type="MeshLibrary" path="res://scenes/assets_only/castle_tile/tileset.tres" id="2_0ujnf"]
-[ext_resource type="Texture2D" uid="uid://ddqp7mt0ch6ae" path="res://scenes/maps/ground.png" id="3_r6fcy"]
-[ext_resource type="Texture2D" uid="uid://60shevufnec7" path="res://scenes/maps/ground_n.png" id="4_hyisj"]
-[ext_resource type="MeshLibrary" path="res://scenes/assets_only/grass/grass_mesh.tres" id="5_23xhr"]
-[ext_resource type="PackedScene" uid="uid://dmltabu2kai35" path="res://scenes/assets_only/player_scn/player.tscn" id="5_ygysy"]
-[ext_resource type="MeshLibrary" path="res://scenes/assets_only/trees/tree_mesh.tres" id="6_13uve"]
->>>>>>> 7bde4700e2fd938d8adf69400a16e3b8f977779d
 [ext_resource type="PackedScene" path="res://scenes/assets_only/campfire/campfire.tscn" id="6_wcgis"]
 [ext_resource type="PackedScene" uid="uid://de412y3nht0vb" path="res://scenes/assets_only/door_poc/door_c.tscn" id="11_uqtex"]
 [ext_resource type="Script" path="res://scenes/scripts/to_castle.gd" id="12_cyemw"]
