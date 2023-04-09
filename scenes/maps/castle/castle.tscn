@@ -2,13 +2,13 @@
 
 [ext_resource type="Texture2D" uid="uid://c5lynnahb4jcw" path="res://scenes/maps/sky.png" id="1_3r8s8"]
 [ext_resource type="PackedScene" path="res://scenes/assets_only/campfire/campfire.tscn" id="2_ttlhi"]
-[ext_resource type="MeshLibrary" path="res://scenes/assets_only/castle_tile/tileset.tres" id="2_whuin"]
+[ext_resource type="MeshLibrary" uid="uid://dh6ui0ugbw5mv" path="res://scenes/assets_only/castle_tile/tileset.tres" id="2_whuin"]
 [ext_resource type="PackedScene" uid="uid://dmltabu2kai35" path="res://scenes/assets_only/player_scn/player.tscn" id="3_4dhu1"]
 [ext_resource type="Script" path="res://scenes/scripts/to_woods.gd" id="5_ewdii"]
 [ext_resource type="Texture2D" uid="uid://ddqp7mt0ch6ae" path="res://scenes/maps/ground.png" id="6_xqa1c"]
 [ext_resource type="Texture2D" uid="uid://60shevufnec7" path="res://scenes/maps/ground_n.png" id="7_3y8od"]
-[ext_resource type="MeshLibrary" path="res://scenes/assets_only/trees/tree_mesh.tres" id="8_kpj1c"]
-[ext_resource type="MeshLibrary" path="res://scenes/assets_only/grass/grass_mesh.tres" id="9_7l6p1"]
+[ext_resource type="MeshLibrary" uid="uid://b2ok35bov0udf" path="res://scenes/assets_only/trees/tree_mesh.tres" id="8_kpj1c"]
+[ext_resource type="MeshLibrary" uid="uid://cyvj2iu7g4wx8" path="res://scenes/assets_only/grass/grass_mesh.tres" id="9_7l6p1"]
 
 [sub_resource type="PanoramaSkyMaterial" id="PanoramaSkyMaterial_vuxce"]
 panorama = ExtResource("1_3r8s8")
