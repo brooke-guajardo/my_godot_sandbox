@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://03v1uhlt3wff"
-path="res://.godot/imported/lamp_post.glb-fc4998530f18a420298d3037b9d4cc6e.scn"
+path="res://.godot/imported/lamp_post.glb-4d96ce590dc99ef447e157c1ebb9c408.scn"
 
 [deps]
 
-source_file="res://new_stuffs/lamp_post.glb"
-dest_files=["res://.godot/imported/lamp_post.glb-fc4998530f18a420298d3037b9d4cc6e.scn"]
+source_file="res://scenes/assets_only/lamp_post/lamp_post.glb"
+dest_files=["res://.godot/imported/lamp_post.glb-4d96ce590dc99ef447e157c1ebb9c408.scn"]
 
 [params]
 
